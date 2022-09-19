@@ -1,0 +1,57 @@
+
+h1{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    background-color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 130%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    background-color: white;
+    text-align: center;
+}
+
+img{
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+body {
+    background-image: url(Images/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navi {
+
+    list-style: none;
+    
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+    padding-left: 0;
+}
+
+.navi>li {
+    background-color: wheat;
+    border-radius: 3px;
+    border-style: outset;
+
+    display: inline-block;
+}
+
+.navi>li>a:hover{
+    background-color: grey;
+}
