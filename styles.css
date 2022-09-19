@@ -7,6 +7,24 @@ h1{
     text-align: center;
 }
 
+img.left{
+    border-style: solid;
+    display: inline;
+    margin-left: 10%;
+    margin-right: 0%;
+    width:39%;
+
+}
+
+img.right{
+    border-style: solid;
+    display: inline;
+    margin-left: 0%;
+    margin-right: 10%;
+    width: 39%;
+
+}
+
 p {
     font-size: 130%;
     margin-left: 10%;
